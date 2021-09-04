@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    background: #f5f5f5;
+    font-family: Arial;
+}
+
+input {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+input[type='checkbox'],
+button {
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: .8;
+}
+
+button {
+    border: none;
+    background: none;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.center-container {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 65px;
+}
+
+.left-container,
+.right-container {
+    width: 470px;
+}
+
+.left-container {
+    float: left;
+}
+
+.right-container {
+    float: right;
+}
+
+.left-container .header,
+.right-container .header {
+    font-size: 21px;
+    line-height: 54px;
+}
+
+.list-is-empty {
+    color: #8993ad;
+}
+
+.hidden {
+    display: none;
+}
+
+.tasks-wrapper,
+.right-container .content {
+    width: 100%;
+    height: auto;
+}
+
+.tasks-wrapper .item-task {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: #8993ad;
+    font-size: 14px;
+}
+
+.tasks-wrapper .item-task input,
+.tasks-wrapper .item-task .description {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.tasks-wrapper .item-task button{
+    display: inline-block;
+    float: right;
+    margin-top:10px;
+}
+
+.tasks-wrapper .item-task .btn-delete {
+    background-image: url(../img/clear-button.png);
+    background-repeat: no-repeat;
+    padding: 6px;
+}
+
+.right-container .content form {
+    width: 390px;
+    min-height: 130px;
+    background-color: #ffffff;
+    padding: 30px 40px 30px 40px;
+}
+
+.right-container .content input {
+    width: 394px;
+    height: 45px;
+    border: 1px solid #ebebeb;
+    background-color: #fcfcfc;
+    margin-bottom: 28px;
+    margin-top: 10px;
+}
+
+.right-container .content label {
+    font-size: 14px;
+    color: #8993ad;
+}
+
+.right-container .content .btn {
+    padding: 15px 50px;
+    background-color: #2174fd;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.tasks-wrapper .checked {
+    background-color: #ebebeb;
+}
